@@ -1,0 +1,26 @@
+# ユーザー認証機能を容易に追加するためのgem
+gem 'sorcery', "~> 0.16.3"
+
+# 多言語化の導入
+gem 'rails-i18n', '~> 7.0.0'
+
+# デコレータの導入
+gem 'draper', '4.0.2' 
+
+# 画像のアップロード
+gem 'carrierwave', '2.2.2'
+
+# turbo_streamのメソッドを簡単に扱えるturbo-rails
+gem 'turbo-rails', "1.1.1"
+
+# ページネーション
+gem 'kaminari', "1.2.2"
+
+# 検索機能
+gem 'ransack', "3.2.1"
+
+gem 'letter_opener_web', '~> 2.0'
+gem 'config'
+
+# enum_help
+gem 'enum_help'
