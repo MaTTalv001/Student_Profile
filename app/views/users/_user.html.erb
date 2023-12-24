@@ -1,11 +1,9 @@
 <div class="col-md-4">
-  <div class="card mb-3">
-    <div class="card-body">
-      <h5 class="card-title"><%= user.first_name %></h5>
-      <h5 class="card-title"><%= user.last_name %></h5>
-      <h5 class="card-title"><%= user.email %></h5>
-       
-
+  <div class="card mt-5">
+    <div class="card-header"><H5><%= user.nickname %></H5></div>
+      <div class="card-body">
+        <h5 class="card-title"><%= user.joinperiod%>期<%= user.joinperioddetail %></h5>
+        <h5 class="card-title"><%= user.last_name %></h5>
       <!-- その他ユーザーに関する情報を表示 -->
     </div>
   </div>
